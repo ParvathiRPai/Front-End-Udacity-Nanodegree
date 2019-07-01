@@ -1,0 +1,185 @@
+p
+{
+  text-align: center;
+}
+
+body {
+ background: #f5f5f5;
+}
+
+.jumbotron
+{
+   background-color: #fffdd0;
+   border-color:pink;
+   margin-left: 22%;
+   margin-right: 22%;
+}
+
+.image
+{
+	width:100%;
+  height: 70px;
+}
+
+
+.navbar 
+{
+   background-color:  #202020;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.navbar-brand
+{
+  text-align: left;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 220px;
+  height: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.sm-link7::before{
+  left: 0;
+  top: 0;
+  transform: translate3d(-110%, 0, 0);
+}
+
+
+.sm-link7 .sm-link__label,
+.sm-link7:hover::before{
+  transform: translate3d(0, 0, 0);
+}
+
+
+.sm-link7:hover .sm-link__label{
+  transform: translate3d(110%, 0, 0);	
+}
+
+.heading
+{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.text 
+{
+  margin-left: 3%
+}
+
+
+li
+{
+  font-size:20px;
+   margin-left: 10px;
+}
+
+.subheading 
+{
+  font-size:40px;
+  text-decoration: underline;
+}
+
+
+/*Nav Bar*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    flex-wrap: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+
+  .topnav.responsive a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+    .navbar-left,.navbar-right {
+       flex-wrap: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        flex-wrap: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        flex-wrap: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}

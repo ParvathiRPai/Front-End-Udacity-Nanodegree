@@ -1,0 +1,24 @@
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.heading
+{
+	text-align: center;
+	font-size:25px;
+	font-weight: 20px;
+
+}
+.jumbotron
+{
+  text-align: center
+  margin-left:20px;
+}
+.progress
+{
+  margin-left: 10px;
+}

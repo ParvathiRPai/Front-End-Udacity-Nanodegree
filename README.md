@@ -1,3 +1,3 @@
 # Front-End Web Developer Nanodegree
 
-![Certificate](Certificate.jpg)
+![certificate](certificate.jpg)

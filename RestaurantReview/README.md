@@ -22,4 +22,4 @@ The project work has improved below three areas:
 
 ## Screenshot
 
-![Screenshot1](/img/Screenshot.PNG "Screenshot")
+![Screenshot1](img/Screenshot.PNG "Screenshot")
